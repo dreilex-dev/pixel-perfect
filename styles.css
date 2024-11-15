@@ -36,11 +36,14 @@
 
 body {
     background-color: var(--body-color);
+    width: 100vw;
+    height: 100vh;
 }
 
 .white-container {
+    position: relative;
     max-width: 1100px;
-    height: 684px;
+    height: 90vh;
     background-color: var(--container-color);
     margin: 0 auto;
 }
@@ -142,11 +145,13 @@ hr {
 footer {
     background-color: #3a3a3a;
     height: 70px;
+    width: 100vw;
 }
 
 footer p {
     color:var(--footer-color);
-    font-weight: var(--footer-size);
+    font-size: var(--footer-size);
+    font-weight: var(--footer-weight);
     text-align: center;
     bottom: 27px; 
 }
@@ -155,5 +160,5 @@ footer p {
     width: 13px;
     height: 27px;
     background-color: #d9d9d9;
-    margin-left: 735px;
+    margin-left: 51vw;
 }
