@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --font: "Roboto", Arial, sans-serif;
+    --body-color: #D74949;
+    --text-color: #000000;
+    --container-color: #f3f3f3;
+    --line-color: #d9d9d9;
+    --h1-size: 14px;
+    --h1-weight: 300;
+    --circle: #D9D9D9;
+
+    --h2-size: 16px;
+    --h2-weight: 800;
+
+    --title-size: 20px;
+    --title-weight: 700;
+
+    --name-size: 14px;
+    --name-weight: 700;
+
+    --function-size: 14px;
+    --function-weight: 300;
+
+    --footer-size: 14px;
+    --footer-weight: 700;
+    --footer-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+.white-container {
+    max-width: 1100px;
+    height: 684px;
+    background-color: var(--container-color);
+    margin: 0 auto;
+}
+
+.h1-container {
+    display: flex;
+    padding: 100px 0 0 0px;
+    align-items: center;
+    justify-items: center;
+}
+
+hr {
+    width: 49px;
+    border: 1px solid var(--line-color);
+}
+
+.i-am-h1 {
+    font-size: var(--h1-size);
+    font-weight: var(--h1-weight);
+    padding-left: 1px;
+}
+
+.h2-container {
+    padding:12px 0px 0 945px;
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+}
+
+.i-am-p {
+    padding-top: 7px;
+    text-align: center;
+    font-size: var(--title-size);
+    font-weight: var(--h2-weight);
+}
+
+.i-am-p span {
+    color: #8f2727;
+}
+
+.big-card {
+    height: 328px;
+    width: 207px;
+    /* border: 1px solid #000; */
+    margin: 38px 0px 0px 50px;
+    position: relative;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: auto;
+    box-shadow: 0px 4px 4px #000000;
+    background-color: #ffffff;
+}
+
+.avatar {
+    height: 185px;
+    width: 200px;
+}
+
+#name{
+    font-size: var(--name-size);
+    font-weight: var(--name-weight);
+    padding: 20px 0px 0px 20px;
+}
+
+#title{
+    font-size: var(--function-size);
+    font-weight: var(--function-weight);
+    padding: 3px 0px 0px 20px;
+}
+
+
+.linkedin{
+    width: 18px;
+    height: 18px;
+    margin: 10px 0px 0px 20px;
+}
+
+
+.whatsapp {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+}
+
+.round-object {
+    width: 54px;
+    height: 54px;
+    background-color: var(--circle);
+    border-radius: 50%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #3a3a3a;
+    height: 70px;
+}
+
+footer p {
+    color:var(--footer-color);
+    font-weight: var(--footer-size);
+    text-align: center;
+    bottom: 27px; 
+}
+
+.rectangle {
+    width: 13px;
+    height: 27px;
+    background-color: #d9d9d9;
+    margin-left: 735px;
+}
